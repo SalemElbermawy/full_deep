@@ -1,0 +1,31 @@
+Employee_ID,Age,Years_Experience,Hours_Per_Week,Performance_Score,Department,Job_Level,Education,Salary
+E001,34,8,40,87,Engineering,Senior,Bachelor,95000
+E002,28,3,38,74,Marketing,Junior,Bachelor,52000
+E003,45,20,42,92,Engineering,Lead,Master,135000
+E004,31,6,40,81,HR,Mid,Bachelor,61000
+E005,52,27,45,95,Management,Director,Master,180000
+E006,26,2,35,68,Marketing,Junior,High School,44000
+E007,39,14,40,88,Finance,Senior,Master,110000
+E008,33,7,40,76,IT,Mid,Bachelor,72000
+E009,41,16,43,90,Engineering,Lead,PhD,145000
+E010,29,4,38,71,HR,Junior,Bachelor,48000
+E011,48,23,44,93,Finance,Director,Master,165000
+E012,36,11,40,84,IT,Senior,Bachelor,88000
+E013,27,2,37,65,Marketing,Junior,High School,40000
+E014,44,19,41,89,Engineering,Senior,Master,118000
+E015,55,30,46,97,Management,VP,Master,220000
+E016,32,6,39,78,Finance,Mid,Bachelor,67000
+E017,38,13,40,85,IT,Senior,Master,92000
+E018,25,1,36,60,HR,Junior,Bachelor,38000
+E019,43,18,42,91,Engineering,Lead,PhD,150000
+E020,30,5,38,73,Marketing,Mid,Bachelor,58000
+E021,50,25,44,94,Management,Director,MBA,175000
+E022,35,9,40,82,Finance,Senior,Bachelor,98000
+E023,28,3,37,70,IT,Junior,Bachelor,55000
+E024,42,17,41,87,HR,Senior,Master,78000
+E025,46,21,43,90,Engineering,Lead,Master,140000
+E026,31,5,39,75,Marketing,Mid,Bachelor,56000
+E027,37,12,40,83,Finance,Senior,Bachelor,102000
+E028,24,1,35,58,IT,Junior,High School,36000
+E029,49,24,44,92,Engineering,Director,PhD,160000
+E030,33,7,40,79,HR,Mid,Bachelor,63000
