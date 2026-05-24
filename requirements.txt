@@ -1,0 +1,13 @@
+streamlit==1.55.0
+
+numpy==2.3.3
+pandas==2.3.3
+plotly
+seaborn==0.13.2
+matplotlib==3.10.9
+
+tensorflow==2.20.0rc0
+
+keras==3.11.1
+
+PIL
