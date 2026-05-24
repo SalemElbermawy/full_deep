@@ -70,42 +70,42 @@ ocean_proximity=encoding[st.selectbox("Choose :",options=['<1H OCEAN', 'INLAND',
 
 if st.button("Predict"):
     result=model.predict(predict_house(housing_median_age=house_age,total_bedrooms=total_bedrooms,total_rooms=total_rooms,households=households,population=population,ocean_proximity=ocean_proximity,median_income=median_income))
-    
-    st.markdown(
-    f"""
-    <div style="
-        background: linear-gradient(135deg, #1e3c72, #2a5298);
-        padding: 30px;
-        border-radius: 25px;
-        text-align: center;
-        color: white;
-        box-shadow: 0px 8px 20px rgba(0,0,0,0.3);
-        border: 3px solid #ffffff33;
-        margin-top: 20px;
-    ">
-        <h3 style="margin-bottom:10px; font-size:28px;">
-            🏡 Predicted House Price
-        </h3>
+    st.session_state.value = float(result[0][0])
 
-        <h1 style="
-            color:#FFD700;
-            font-size:50px;
-            margin:0;
-        ">
-            {result[0]}
-        </h1>
+    if "value" in st.session_state:
 
-        <p style="
-            font-size:18px;
-            opacity:0.9;
-            margin-top:15px;
-        ">
-            AI Estimated Market Value
-        </p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+        value = st.session_state.value
+
+        st.markdown(
+            f"""
+            <div style="
+                background: linear-gradient(135deg, #1e3c72, #2a5298);
+                padding: 30px;
+                border-radius: 25px;
+                text-align: center;
+                color: white;
+                box-shadow: 0px 8px 20px rgba(0,0,0,0.3);
+                border: 3px solid #ffffff33;
+                margin-top: 20px;
+            ">
+                <h3 style="margin-bottom:10px; font-size:28px;">
+                    🏡 Predicted House Price
+                </h3>
+
+                
+
+                
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+        
+        st.markdown(f"""
+                    <h1 style="color:#FFD700;font-size:50px;margin:0;">
+                    {value:,.2f}
+                </h1>
+                    
+                    """,unsafe_allow_html=True)
     
     st.subheader("📊 Model Performance")
 
