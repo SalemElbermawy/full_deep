@@ -2,6 +2,8 @@ from keras.models import load_model
 import streamlit as st
 import pandas as pd
 import numpy as np
+from PIL import Image
+
 model=load_model("titanic_model.keras")
 
 encoding_embarked={
@@ -100,6 +102,19 @@ if st.button("Predict"):
         """,
         unsafe_allow_html=True
     )
+        
+    st.subheader("📊 Model Performance")
+
+    img1 = Image.open("accuracy_titanic.png")
+    img2 = Image.open("loss_titanic.png")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.image(img1, caption="Model Accuracy")
+
+    with col2:
+        st.image(img2, caption="Model Loss")
 
     
     
