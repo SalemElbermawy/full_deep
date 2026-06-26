@@ -2,7 +2,7 @@
 
 ## Content :
 
-- This app consists of 4 deep learning detection models.
+### This app consists of 4 deep learning detection models.
 
 1- Detect the price of the homes in CA
 2- detection of breast cancer
@@ -10,6 +10,7 @@
 4- detection of the people survive from titanic
 
 ## How to run
+
 - Enter values, click predict, then the prediction,
 
 ## Motivation 
@@ -20,8 +21,9 @@
 
 ## Installation 
 
-- To Install it and make it work look at "requierments.txt"
-
+- Just download the folder of the repo
+- download all the librarey in the requirments.txt
+- and go to the terminal and write "streamlit run app.py"
 
 
 # Below are images for the website
