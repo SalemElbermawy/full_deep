@@ -9,7 +9,8 @@
 3- detection of the type of flower
 4- detection of the people survive from titanic
 
-Enter values, click predict, then the prediction,
+## How to run
+- Enter values, click predict, then the prediction,
 
 ## Motivation 
 
