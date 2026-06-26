@@ -19,7 +19,6 @@ sex_encoding={
 
 st.title("Titanic Detection")
 
-st.title("Titanic Detection")
 
 embarked_value= encoding_embarked[st.selectbox("Choose Embarked Value",options=["S","C","Q"],key="embarked")]
 
