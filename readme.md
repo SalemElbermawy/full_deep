@@ -1,32 +1,59 @@
+
 # Deep Learning Project
 
-## Content :
-
-### This app consists of 4 deep learning detection models.
-
-1- Detect the price of the homes in CA
-2- detection of breast cancer
-3- detection of the type of flower
-4- detection of the people survive from titanic
-
-## How to run
-
-- Enter values, click predict, then the prediction,
-
-## Motivation 
-
-- See the power of DL models and how we can use it in normal life
-- Try it in different fields in the real life
-- So you can see it it big problem such as titanic , medical (cancer), etc
-
-## Installation 
-
-- Just download the folder of the repo
-- download all the librarey in the requirments.txt
-- and go to the terminal and write "streamlit run app.py"
 
 
-# Below are images for the website
+
+
+
+## Content
+
+This app consists of 4 deep learning detection models:
+
+1. Detect the price of homes in CA
+2. Detection of breast cancer
+3. Detection of the type of flower
+4. Detection of people who survived the Titanic
+
+## Features
+
+- Multiple deep learning models in one place
+- Simple and clean web interface built with Streamlit
+- Covers real-world problems from medical to financial fields
+- Fast predictions with a single click
+
+## How to Run & What I used
+- I used scikit-learn , pandas , numpy , notebook, and etc to do the models
+- Streamlit to make the simple fron end and backend of this peoject
+- Use free hoting like streamlit cloud
+
+
+
+--- 
+- Enter values of what you want to predict
+- Click predict
+- Then the prediction appears.
+
+## Motivation
+
+- See the power of DL models and how we can use them in normal life
+- Try them in different fields in real life
+- So you can see how they handle big problems such as Titanic, medical (cancer), etc
+
+
+## Installation
+
+- Download the folder of the repo
+- Install all the libraries in the requirements.txt file
+- Open the terminal and run:
+
+```
+streamlit run app.py
+```
+
+## Screenshots
+
+
 
 
 ![alt text](image.png)
