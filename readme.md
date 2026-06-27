@@ -48,7 +48,7 @@ This app consists of 4 deep learning detection models:
 - Open the terminal and run:
 
 ```
-streamlit run app.py
+streamlit run housing.py
 ```
 
 ## Screenshots
