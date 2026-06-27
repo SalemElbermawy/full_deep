@@ -31,15 +31,16 @@ parch=st.number_input("Enter The parch")
 sibsp=st.number_input("Enter The sibsp")
 
 def predict(sex,age,fare,embarked,pclass,parch,sibsp):
-    inputs_value=[[pclass,sex,age,sibsp,parch,fare,embarked]]
-    col_names=["pclass","sex","age","sibsp","parch","fare","embarked"]
+    inputs_value = [[pclass, sex, age, sibsp, parch, fare, embarked]]
+    # inputs_value=[[pclass,sex,age,sibsp,parch,fare,embarked]]
+    col_names=["Pclass","Sex","Age","SibSp","Parch","Fare","Embarked"]
     df_predict=pd.DataFrame(inputs_value,columns=col_names)
     return df_predict
 
 
 if st.button("Predict"):
     
-    result=np.round(model.predict(predict(embarked_value,sex_value,pclass,age,parch,sibsp,fare)))[0][0]
+    result = np.round(model.predict(predict(sex_value, age, fare, embarked_value, pclass, parch, sibsp)))[0][0]
     st.session_state.prediction_result=int(result)
     
 if "prediction_result" in st.session_state:
